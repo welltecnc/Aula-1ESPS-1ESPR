@@ -5,7 +5,7 @@ import { GrTrash } from "react-icons/gr";
 
 export default function Produtos(){
     return(
-        <section>
+        <section className="produtos">
             <h1>LISTA DE PRODUTOS</h1>
 
             <div>

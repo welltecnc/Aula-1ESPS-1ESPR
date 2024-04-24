@@ -9,6 +9,7 @@ import Contato from './routes/Contato.jsx'
 import Error from './routes/Error.jsx';
 import Login from './routes/Login.jsx';
 import Produtos from "./routes/Produtos.jsx"
+import ExemploApi from './routes/ExemploApi.jsx';
 
 
 const router = createBrowserRouter ([
@@ -23,6 +24,7 @@ const router = createBrowserRouter ([
       {path: '/Contato', element: <Contato />},
       {path: '/Produto',element:<Produtos/>},
       {path: '/Login', element: <Login />},
+      {path: '/ExemploApi',element:<ExemploApi/>}
     ]
   }
 ])

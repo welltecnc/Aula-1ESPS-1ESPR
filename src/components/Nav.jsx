@@ -23,6 +23,10 @@ function Nav() {
               Produtos
             </Link>
 
+            <Link to="/ExemploApi" className="tlink">
+              Api-1
+            </Link>
+
             <Link to="/login" className="tlink">
               Login
             </Link>
