@@ -10,6 +10,7 @@ import Error from './routes/Error.jsx';
 import Login from './routes/Login.jsx';
 import Produtos from "./routes/Produtos.jsx"
 import ExemploApi from './routes/ExemploApi.jsx';
+import ListaProdutos from './routes/ListaProdutos.jsx';
 
 
 const router = createBrowserRouter ([
@@ -23,6 +24,7 @@ const router = createBrowserRouter ([
       {path: '/Portifolio', element: <Portifolio />},
       {path: '/Contato', element: <Contato />},
       {path: '/Produto',element:<Produtos/>},
+      {path: '/ListaProduto',element:<ListaProdutos/>},
       {path: '/Login', element: <Login />},
       {path: '/ExemploApi',element:<ExemploApi/>}
     ]

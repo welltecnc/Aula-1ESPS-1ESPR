@@ -19,7 +19,7 @@ function Nav() {
               Contato
             </Link>
 
-            <Link to="/produto" className="tlink">
+            <Link to="/ListaProduto" className="tlink">
               Produtos
             </Link>
 
